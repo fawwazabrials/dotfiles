@@ -40,3 +40,4 @@ alias ls='ls --color'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
+eval "$(mise activate zsh)"

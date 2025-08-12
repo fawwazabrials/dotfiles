@@ -1,0 +1,7 @@
+[tools]
+go = "latest"
+java = "21"
+pnpm = "latest"
+python = "latest"
+node = "latest"
+bun = "latest"
