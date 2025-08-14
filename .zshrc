@@ -8,6 +8,8 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit ice depth=1
+zinit light jeffreytse/zsh-vi-mode
 
 # Load completions
 autoload -Uz compinit && compinit
@@ -41,3 +43,11 @@ alias ls='ls --color'
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
+
+# Check that the function `starship_zle-keymap-select()` is defined.
+# xref: https://github.com/starship/starship/issues/3418
+type starship_zle-keymap-select >/dev/null || \
+  {
+    echo "Load starship"
+    eval "$(/usr/local/bin/starship init zsh)"
+  }
