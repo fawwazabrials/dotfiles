@@ -5,3 +5,6 @@ pnpm = "latest"
 python = "latest"
 node = "latest"
 bun = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = []
