@@ -53,3 +53,4 @@ type starship_zle-keymap-select >/dev/null || \
     echo "Load starship"
     eval "$(/usr/local/bin/starship init zsh)"
   }
+export PATH=/home/abil/.local/bin:$PATH
