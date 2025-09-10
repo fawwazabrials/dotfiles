@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Teams for Linux (Work)
+Comment=Microsoft Teams for Linux - Work Profile
+Exec=/opt/teams-for-linux/teams-for-linux --class=teams-work --user-data-dir=/home/abil/.config/teams-for-linux/profile-work --appIcon=/home/abil/.config/teams-for-linux/profile-work/teams-work.png
+Icon=teams-work
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
+StartupWMClass=teams-work
