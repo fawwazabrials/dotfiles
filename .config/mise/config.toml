@@ -5,6 +5,7 @@ pnpm = "latest"
 python = "latest"
 node = "latest"
 bun = "latest"
+uv = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = []
